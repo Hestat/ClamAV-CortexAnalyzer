@@ -1,4 +1,4 @@
-##ClamAV-Analyzer
+# ClamAV-Analyzer
 
 Analyzer for integrating ClamAV scanning to TheHive and Cortex.
 
