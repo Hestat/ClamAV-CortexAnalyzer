@@ -1,0 +1,12 @@
+{
+  "name": "Clamscan",
+  "version": "1.0",
+  "author": "Brian Laskowski",
+  "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+  "license": "AGPL-V3",
+  "description": "Use Clamscan with custom rules",
+  "dataTypeList": ["file"],
+  "baseConfig": "ClamScan",
+  "command": "ClamScan/pyclam_analyzer.py"
+}
+
