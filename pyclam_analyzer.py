@@ -37,8 +37,8 @@ class ClamAnalyzer(Analyzer):
         namespace = "Clamscan"
         predicate = "Match"
 
-        value = raw["results"]
-        if len(raw["results"]) == 0:
+        value = "{} rule(s)".format(len(raw["results"]))        
+        if len(str(raw["results"])) < 12:            
             level = "safe"
         else:
             level = "malicious"
