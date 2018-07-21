@@ -55,4 +55,4 @@ class ClamAnalyzer(Analyzer):
 
 if __name__ == '__main__':
     """This is necessary, because it is called from the CLI."""
-    ClamPythonAnalyzer().run()
+    ClamAnalyzer().run()
